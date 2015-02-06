@@ -7,7 +7,7 @@ plt.ion()
 E_G = 2.6   # E/G, E: Young's modulus; G: shear modulus
 L_h = 10.0  # L/h, L: length of beam;  h: cross section hight
 N = 12      # Load along x-axis
-P = 4
+P = 4       # Load along y-axis
 M = 0.0
 a_2 = 1.0/12.0*(1.0/L_h)**2
 s_2 = 1.0/10.0*E_G*(1.0/L_h)**2
